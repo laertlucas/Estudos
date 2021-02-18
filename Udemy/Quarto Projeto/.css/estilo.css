@@ -1,0 +1,297 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color:#FFF;
+	background: url(../imagens/fundo.png) repeat-x;
+}
+
+/***************** TOPO DA PÁGINA *******************/
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#topo {
+	height: 150px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+	width:50%;
+	margin:0 auto;
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat;
+}
+
+ul {
+	list-style: none;
+	margin:0 ;
+	padding: 0;
+}
+
+#topo ul{
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+	border-radius: 15px 0;
+}
+
+#topo ul li{
+	float: left;
+}
+
+#topo ul a{
+	font-size:0.9em;
+	display: block;
+	padding:0.5em 1.5em ;
+	line-height: 2.1em;
+	text-decoration: none;
+	color:white;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+#topo ul a:hover{
+	color:#69001D;
+}
+
+/*body #container #topo #navegação #home,
+body #container #topo #navegação #brasil{
+	background: #920028;
+}*/
+
+
+/***************** CONTEUDO DA PÁGINA *******************/
+
+#conteudo-pai {
+	width: 100%;
+	margin-top:60px;
+}
+
+.conteudo {
+	display: flex;
+}
+/*--- Conteúdo Principal ---*/
+#primario {
+	flex-grow:2;
+	margin:5px 5px;
+}
+
+#caixa-dialog {
+	padding-bottom:5px;
+}
+
+#dialog {
+	width: 71%;
+	margin-left: 12%;
+	padding: 10px;
+	border-radius: 15px;
+	background: #E7E7E7;
+}
+
+.pri h2{
+	margin: 5px 12%;
+	padding: 4px 20px;
+	font-size: 1.3em;
+	background: #b10333;
+	color: white;
+	border-radius: 15px 0;
+	width: 69%;
+}
+
+.pri-1{
+    margin: 5px;
+    background: white;
+    margin-top: 7px;
+    padding-bottom: 10px;
+}
+
+.pri-1 p{
+	margin: 5px 11.7%;
+}
+
+.pri-1 a{
+	color: black;
+	margin-left: 11.7%;
+}
+
+/*--- Conteúdo Secundário ---*/
+#secundario {
+	max-width:360px;
+	background: #294c71;
+    margin: 5px 5px;
+    flex-grow:1;
+    border-radius:5px;
+}
+
+#sec-1 h2{
+	margin: 5px;
+    padding: 4px 20px;
+    font-size: 1.3em;
+    background: #b10333;
+    color: white;
+    border-radius: 15px 0;
+}
+
+.sec1 {
+    margin: 5px;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/*-- DESTAQUES --*/
+
+#destaque li{
+	padding:5px;
+	border-bottom: 1px solid #CCC;
+	height: 80px;	
+}
+
+#destaque li a img {
+	float:left;
+	padding:2px 2px;
+}
+
+#destaque li a h3 {
+	font-size:1.1em;
+	padding:0;
+	color: #3e7ab9;
+}
+
+#destaque li a p {
+	font-size:0.9em;
+}
+
+#destaque li:hover{
+	background: #eee;
+	cursor:pointer;
+}
+
+.sec1 img{
+	width:35%;
+	padding-top:5px;
+	float:left;
+}
+
+.sec1 a{
+	color:black;
+}
+
+#sec-2 h2{
+	margin: 5px;
+    padding: 4px 20px;
+    font-size: 1.3em;
+    background: #b10333;
+    color: white;
+    border-radius: 15px 0;
+}
+
+.sec2 {
+    margin: 5px;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+	padding: 2px 20px;
+}
+
+.sec2 p{
+	margin:5px;
+	padding-top:10px;
+}
+
+.sec2 a{
+	color:black;
+}
+
+/*---- INICIO LATERAL ----*/
+#lateral {
+	background:url(../imagens/fundo-caixa.png);
+	padding:5px;
+	width:155px;
+	flex-grow: 1;
+}
+
+#lateral ul li {
+    padding: 10px;
+    background: #294c71;
+    margin-top: 4px;
+    border-radius:5px;
+}
+
+li a{
+	text-decoration:none;
+	color:white;
+}
+/*
+body #container #lateral #entrevistas #entrevista1,
+body #container #lateral #entrevistas #entrevista2{
+	background: #920028;
+}*/
+
+#lateral li:hover {
+	background:#0a5db5;
+	padding:10px 5px;
+}
+
+#lateral h3 {
+	color:#FFF;
+	background:#b10333;
+	font-size:1.2em;
+	padding:5px 20px;
+	border-radius: 15px 0;
+}
+
+.atualizações {
+	padding-top: 15px;
+}
+
+.atualizações h2{
+	color:#FFF;
+	background:#b10333;
+	font-size:1.2em;
+	padding:5px 20px;
+	border-radius: 15px 0;
+}
+
+input {
+	display: block;
+	font-size:0.9em;
+	padding:5px 20px;
+	border-radius: 5px;
+	background: #C3C3C3;
+}
+
+input.submit{
+	border-radius:5px;
+	padding:5px;
+	background: #294c71;
+	color:white;
+}
+
+input.submit:hover{
+	background-color:#0a5db5;
+}
+
+/*---- RODAPÉ ----*/
+
+#container-rodape {
+	background: #294c71;
+	padding: 20px;
+}
+
+#rodape {
+	width: 750px;
+	margin:0 39%;
+	color: #FFF;
+}

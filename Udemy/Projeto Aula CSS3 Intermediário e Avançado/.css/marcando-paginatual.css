@@ -1,0 +1,27 @@
+ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+li a {
+	width: 200px;
+	height: 40px;
+	text-indent: 40px;
+	line-height: 40px;
+	display: block;
+	text-decoration: none;
+	background:#f7b600 url(../imagens/menu.png) no-repeat left center;
+}
+
+a:hover {
+	background-position: right bottom;
+	background-color:#f99200;
+	color:#FFF;
+}
+
+#home .home a {
+	background-position: right bottom;
+	background-color:#f99200;
+	color:#FFF;
+}

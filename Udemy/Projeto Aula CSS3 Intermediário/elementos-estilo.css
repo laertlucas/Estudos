@@ -1,0 +1,41 @@
+/*
+#principal{
+	border:2px solid red;
+	background: gray;
+}
+
+.conteudo {
+	border:2px solid red;
+	background: red;
+	width:150px;
+	height: 150px;
+	float:right;
+	margin:15px;
+	padding: 15px;
+}
+
+.clear{
+	clear: both;
+}
+*/
+
+#principal {
+	width:920px;
+}
+
+.conteudo {
+	background: #f8f8f8;
+	width: 280px;
+	margin: 10px;
+	float: left;
+}
+
+.galeria {
+	width: 280px;
+	margin: 12px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}

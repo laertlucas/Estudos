@@ -1,0 +1,27 @@
+/*body {
+	color:red;
+}
+
+SELETORES IGUAIS, EXCEÇÃO (!important) 
+#pagina p {
+	color:red !important;
+}
+
+#pagina p {
+	color:blue;
+}*/
+
+/*** SE UM SELETOR FOR MAIS ESPECÍFICO QUE OUTRO A REGRA 
+MAIS ESPECÍFICA SERÁ APLICADA(Terá precedência sobre regras mais gera)***/
+
+*{
+	color:gray;
+}
+
+h1.verde{
+	color:green;
+}
+
+h2#azul{
+	color:blue;
+}

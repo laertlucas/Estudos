@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sobrepondo Elementos </title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			.conteudo {
+				background: #f3f3f3;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 80px;
+				left: 80px;
+				z-index: 2; /*contexto de empilhamento*/
+			}
+
+			.conteudo2 {
+				background: #f3f388;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 110px;
+				left: 110px;
+				z-index: 0;
+			}
+
+			.conteudo3 {
+				background: #f2f3f4;
+				width: 250px;
+				height: 250px;
+				position: absolute;
+				top: 140px;
+				left: 140px;
+				z-index: 1;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<h1 class="conteudo">
+			Conteúdo 1
+		</h1>
+
+		<h1 class="conteudo2">
+			Conteúdo 2
+		</h1>
+
+		<h1 class="conteudo3">
+			Conteúdo 3
+		</h1>
+		
+	</body>
+</html>
