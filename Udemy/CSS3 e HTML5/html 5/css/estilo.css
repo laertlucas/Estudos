@@ -1,0 +1,27 @@
+header {
+	border:1px solid red;
+	background: gray;
+}
+
+nav {
+	border:1px solid red;
+	background: #ccc;
+	padding:10px;
+}
+
+footer {
+	background:#ccc;
+}
+
+article {
+	background: orange;
+	padding:10px;
+}
+
+section {
+	border:1px solid #fff;
+}
+
+aside {
+	background: gray;
+}

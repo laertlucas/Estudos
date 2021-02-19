@@ -1,0 +1,22 @@
+#conteudo {
+	background: #ccc;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	/* row|row-reverse|column|column-reverse */
+	flex-wrap:nowrap;
+	/* nowrap|wrap|wrap-reverse */
+	justify-content:space-around;
+	/* flex-start|flex-end|center|space-between|space-around */
+	align-items: baseline;
+	/* stretch|center|flex-start|flex-end|baseline */
+
+}
+
+.item {
+	width: 100px;
+	height: 100px;
+	margin:10px;
+	background: gray;
+	border:1px solid red;
+}
