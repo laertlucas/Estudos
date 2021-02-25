@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class Q4 {
 	public static void main(String[] args){
 		int i = 4;
-		int v[] = new int [i];
+		int[] v = new int [i];
 		int m1 = 0;  
 		int m2 = 0;
 		int s;
@@ -11,7 +11,7 @@ public class Q4 {
 		
 		for (i = 1; i < v.length; i++) {
 			s = Integer.parseInt(JOptionPane.showInputDialog(null,"Informe " + i + "º numero"));
-			if (s > m1) {
+			if (s> m1) {
 				m1 = s;
 			}
 			if (s > m2) {
